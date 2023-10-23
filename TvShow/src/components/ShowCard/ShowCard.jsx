@@ -13,7 +13,7 @@ export default function ShowCard({show}) {
        <div>
         {show.rating.average ? <span> {show.rating.average}/10</span> : ""}
         <h3>{show.name}</h3>
-        <em> {show.languade}, {show.premiered}</em>
+        <em> {show.languade} {show.premiered}</em>
        <div dangerouslySetInnerHTML={{__html: cleanHTML}}></div>
 
        </div>
